@@ -1,0 +1,13 @@
+#include <stdio.h>
+// VARIABLES:-
+int main()
+{
+    int age = 18;
+    float pi = 3.14;
+    char star = '@';
+    
+    int _age = 17; // Variables only contain words and '_'(ay the starting or in between words)
+    float final_price = 289.2;
+
+    return 0;
+}
