@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    int age = 18;
+    printf("enter the age: ");
+    scanf("%d",&age); // scanf is used to take as input.
+    printf("you are %d years old",age);
+    
+
+    return 0;
+}
