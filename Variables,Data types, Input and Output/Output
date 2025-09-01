@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Hello sumith \n"); // printf is the keyword used for printing the output.
+    printf("My favourite cricketer is ABD "); // '\n' is used for next line.
+
+    return 0;
+}
