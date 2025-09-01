@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// Area of the square = side * side
 int main()
 {
     float side;
