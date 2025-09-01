@@ -1,0 +1,12 @@
+#include <stdio.h>
+// Double slash is used for single line comment.
+/* This is used for multi line comment
+I started C- programming before start of my college
+*/
+
+int main()
+{
+    printf("Hello World");
+
+    return 0;
+}
