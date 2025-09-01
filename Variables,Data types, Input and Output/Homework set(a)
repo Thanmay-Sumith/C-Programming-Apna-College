@@ -1,0 +1,17 @@
+#include <stdio.h>
+/*perimeter of the rectangle is 2 * (length + Breadth).
+Length and Breadth as taken as a and b.
+*/
+int main()
+{
+    float a,b;
+    printf("enter a: ");
+    scanf("%f",&a);
+    printf("enter b: ");
+    scanf("%f",&b);
+    
+    printf("Perimeter of the rectangle= %f", 2 * (a+b));
+    
+    
+    return 0;
+}
