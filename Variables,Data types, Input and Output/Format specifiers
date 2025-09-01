@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    int age = 18; // for integers '%d' is used.
+    printf("age is: %d \n",age);
+    float final_price = 25.3; // for real numbers '%f' is used.
+    printf("Final price is: %f \n",final_price);
+    char star = '*'; // for characters '%c' is used.
+    printf("Representation of star: %c",star);
+   
+
+    return 0;
+}
