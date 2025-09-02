@@ -1,0 +1,12 @@
+#include <stdio.h>
+/* Modular operator(%):- Gives remainder.
+If numerator is positive, remainder is positive.
+If numerator is negative then remainder is also negative.
+*/
+int main()
+{
+    printf("%d \n", 8%3);
+    printf("%d", -58%8);
+
+    return 0;
+}
