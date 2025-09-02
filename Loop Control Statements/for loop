@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+    for(int i=1; i <= 17; i++){  // for(intialisation,termination,updation).
+        printf("ABD is the Alien\n"); // i is iterator.
+    }
+
+    return 0;
+}
