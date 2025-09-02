@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include<math.h>
+
+int main()
+{
+    int m,n;
+    printf("enter m: ");
+    scanf("%d",&m);
+    printf("enter n: ");
+    scanf("%d",&n);
+    
+    printf("%f",pow(m,n));
+
+    return 0;
+}
