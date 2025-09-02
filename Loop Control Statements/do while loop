@@ -2,11 +2,11 @@
 
 int main()
 {
-    int i=1;
+    int i=1; // initiation or declaration
     do{
         printf("i love Cricket\n");
-        i++;
-    } while(i <= 7);
+        i++; // updation
+    } while(i <= 7); // termination
 
     return 0;
 }
