@@ -1,0 +1,14 @@
+// Write a program to print the smallest number.
+#include <stdio.h>
+int main()
+{
+    int x,y;
+    printf("enter x: ");
+    scanf("%d",&x);
+    printf("enter y: ");
+    scanf("%d",&y);
+    
+    printf("%d",x < y);// if x is smaller than y then it shows 1 otherwise 0.
+  
+    return 0;
+}
