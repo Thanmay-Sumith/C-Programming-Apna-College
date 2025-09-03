@@ -1,0 +1,19 @@
+//Write 2 functions one to print Hello and other to print Goodbye.
+#include <stdio.h>
+void PrintHello();
+void PrintGoodbye();
+
+int main()
+{
+    PrintHello();
+    PrintGoodbye();
+    return 0;
+}
+
+void PrintHello(){
+    printf("Hello!\n");
+}
+
+void PrintGoodbye(){
+    printf("Goodbye:)\n");
+}
