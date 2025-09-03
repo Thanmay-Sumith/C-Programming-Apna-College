@@ -1,0 +1,20 @@
+// Calculate price with 18% GST.
+#include <stdio.h>
+float price(float n);
+
+int main()
+{
+    float n;
+    printf("enter the price: ");
+    scanf("%f",&n);
+    printf("price without GST is %f \n",price(n));
+    
+    return 0;
+}
+
+float price(float n){
+    float price;
+    price = n + (0.18*n);
+    printf("total price with GST is %f \n",price);
+    return n;
+}
