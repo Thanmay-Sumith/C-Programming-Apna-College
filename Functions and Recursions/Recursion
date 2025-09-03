@@ -1,0 +1,17 @@
+// RECURSION:- When a function calls itself.
+#include <stdio.h>
+void printHello(int count);
+
+int main()
+{
+    printHello(7);
+    return 0;
+}
+
+void printHello(int count){
+    if(count == 0){
+        return;
+    }
+    printf("HELLO!\n");
+    printHello(count - 1);
+}
