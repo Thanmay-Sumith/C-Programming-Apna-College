@@ -1,0 +1,41 @@
+// Write functions to calculate area of a square, a circle,a rectangle.
+#include <stdio.h>
+float squareArea(float side);
+float circleArea(float rad);
+float rectangeArea(float a,float b);
+
+int main()
+{
+    //Area of Square:-
+    float side;
+    printf("enter side: ");
+    scanf("%f",&side);
+    printf("area is %f \n",squareArea(side));
+    
+    //Area of Circle:-
+    float rad;
+    printf("enterr rad: ");
+    scanf("%f",&rad);
+    printf("area is %f \n",circleArea(rad));
+    
+    // Area of Rectangle:-
+    float a,b;
+    printf("enter a: ");
+    scanf("%f",&a);
+    printf("enter b:");
+    scanf("%f",&b);
+    printf("area is %f \n",rectangeArea(a,b));
+    return 0;
+}
+
+float squareArea(float side){
+    return side*side;
+}
+
+float circleArea(float rad){
+    return 3.14 * rad * rad;
+}
+
+float rectangeArea(float a, float b){
+    return a * b;
+}
