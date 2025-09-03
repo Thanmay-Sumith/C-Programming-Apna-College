@@ -1,0 +1,23 @@
+//Sum of n natural numbers.
+int sum(int n);
+
+#include <stdio.h>
+int main()
+{
+    int n;
+    printf("enter n: ");
+    scanf("%d",&n);
+    printf("sum of %d terms is %d",n,sum(n));
+    
+    return 0;
+}
+
+int sum(int n){
+    // Base Case(very important)
+    if(n == 1){
+        return 1;
+    }
+    int sumNm1 = sum(n-1);
+    int sumN = sumNm1 + n;
+    return sumN;
+}
