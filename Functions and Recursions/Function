@@ -1,0 +1,12 @@
+#include <stdio.h>
+void PrintHello(); // Function declaration/prototype.
+// void type returns 0.
+int main()
+{
+    PrintHello(); // Function call.
+    return 0;
+}
+// Function definition
+void PrintHello(){
+    printf("Hello!\n");
+}
