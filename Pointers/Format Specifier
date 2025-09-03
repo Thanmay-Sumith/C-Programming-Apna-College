@@ -1,0 +1,13 @@
+#include <stdio.h>
+//Pointers:- That stores memory address of another variable.
+int main()
+{
+    int age = 18;
+    int *ptr = &age; //'*' represents value at address.
+    int _age = *ptr; //'&' represents address of the variable.
+    
+    printf("%p\n",&age); //'%p' represents pointer address.
+    printf("%p\n",&ptr);
+
+    return 0;
+}
