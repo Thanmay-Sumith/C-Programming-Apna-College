@@ -1,0 +1,10 @@
+#include <stdio.h>
+//Pointers:- That stores memory address of another variable.
+int main()
+{
+    int age = 18;
+    int *ptr = &age;
+    int **pptr = &ptr; // '**pptr' represents pointer to pointer.
+    
+    return 0;
+}
