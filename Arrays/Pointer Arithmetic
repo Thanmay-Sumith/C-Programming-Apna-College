@@ -1,0 +1,41 @@
+// Case 1:-.
+#include <stdio.h>
+
+int main()
+{
+    int age = 18;
+    int *ptr = &age;
+    printf("%u\n",ptr);
+    ptr++; // Increases by one data type that is 'int'.
+    printf("%u\n",ptr);
+
+    return 0;
+}
+
+// Case 2:-.
+#include <stdio.h>
+
+int main()
+{
+    float price = 100.0;
+    float *ptr = &price;
+    printf("%u\n",ptr);
+    ptr++; // Increases by one data type that is 'float'.
+    printf("%u\n",ptr);
+
+    return 0;
+}
+
+// Case 3:-.
+#include <stdio.h>
+
+int main()
+{
+    char star = '*';
+    char *ptr = &star;
+    printf("%u\n",ptr);
+    ptr++; // Increases by one data type that is 'star'.
+    printf("%u\n",ptr);
+
+    return 0;
+}
