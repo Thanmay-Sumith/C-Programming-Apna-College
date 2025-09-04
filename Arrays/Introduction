@@ -1,0 +1,13 @@
+// Arrays = is the collection of similar data types stored at contigous memory locations.
+#include <stdio.h>
+
+int main()
+{
+    int marks1 = 150;
+    int marks2 = 149;
+    int marks3 = 300;
+    
+    int marks[] = {marks1,marks2,marks3};
+
+    return 0;
+}
