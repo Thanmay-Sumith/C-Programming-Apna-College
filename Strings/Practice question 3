@@ -1,0 +1,12 @@
+// Ask the user to enter the fullName & print it back to them.
+
+#include <stdio.h>
+
+int main()
+{
+    char name[50];
+    fgets(name,50,stdin); // 'gets' is dangerous, so instead of it we can use 'fgets'.
+    puts(name);
+
+    return 0;
+}
