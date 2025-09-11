@@ -1,0 +1,21 @@
+//Write a function named slice, which takes a string & return a sliced string from index n to m.
+
+#include <stdio.h>
+#include<string.h>
+void slice(char name[],int n,int m);
+
+int main()
+{
+    char name[] = "THANMAYSUMITH";
+    slice(name,4,9);
+    return 0;
+}
+
+void slice(char name[],int n,int m){
+    char newName[200];
+    int j = 0;
+    for(int i = n; i <= m;i++,j++){
+        newName[j] = name[i];
+    }
+    puts(newName);
+}
