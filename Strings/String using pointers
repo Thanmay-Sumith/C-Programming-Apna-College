@@ -1,0 +1,13 @@
+// String using pointers
+
+#include <stdio.h>
+
+int main()
+{    // Using pointers we can again reinitialise.
+    char *name = "SUMITH";
+    puts(name);
+    name = "THANMAY SUMITH";
+    puts(name);
+
+    return 0;
+}
