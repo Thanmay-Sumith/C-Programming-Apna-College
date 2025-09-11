@@ -1,0 +1,10 @@
+// String Format Specifier
+#include <stdio.h>
+
+int main()
+{// it is used both for input and output, no need to mention the address.
+    char name[100];
+    scanf("%s",name);
+    printf("%s",name);
+    return 0;
+}
