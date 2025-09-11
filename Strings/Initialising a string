@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+    char name[] = {'S','U','M','I','T','H','\0'}; // '\0' represents null character.
+    puts(name);
+    char player[] = "ABD";
+    puts(player);
+
+    return 0;
+}
