@@ -1,0 +1,22 @@
+//Arrow Operator.
+
+#include <stdio.h>
+#include<string.h>
+
+struct student{
+    int roll;
+    float cgpa;
+    char name[100];
+};
+
+int main()
+{
+  struct student s1 = {17,10.0,"SUMITH"};
+  struct student *ptr = &s1;
+  
+  printf("name is %s\n",ptr->name);
+  printf("roll number is %d\n",ptr->roll);
+  printf("cgpa is %f\n",ptr->cgpa);
+
+    return 0;
+}
