@@ -1,0 +1,20 @@
+//Initialising a Structure.
+
+#include <stdio.h>
+#include<string.h>
+
+struct student{
+    int roll;
+    float cgpa;
+    char name[100];
+};
+
+int main()
+{
+  struct student s1 = {17,10.0,"SUMITH"};
+  printf("name is %s\n",s1.name);
+  printf("roll number is %d\n",s1.roll);
+  printf("cgpa is %f\n",s1.cgpa);
+
+    return 0;
+}
